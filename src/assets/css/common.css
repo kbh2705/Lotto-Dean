@@ -1,0 +1,33 @@
+.bg-level-1 {
+    background: #4ec7b1 !important;
+}
+.bg-level-2 {
+    background: #55a9f7 !important;
+}
+.bg-level-3 {
+    background: #8437dd !important;
+}
+.white-space-pre-line {
+    white-space: pre-line !important;
+}
+.cursor-pointer {
+    cursor: pointer !important;
+}
+[class*=sidebar-dark-] .sidebar a p {
+    color: #c2c7d0 !important;
+    font-size: unset !important;
+}
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active p, .sidebar-light-primary p .nav-sidebar>.nav-item>.nav-link.active p {
+    color: #fff !important;
+    font-size: unset !important;
+}
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active p, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:focus p, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:hover p {
+    color: #343a40 !important;
+    font-size: unset !important;
+}
+.table.table-head-fixed.text-nowrap tr, td {
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
